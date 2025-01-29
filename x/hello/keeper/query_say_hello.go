@@ -22,3 +22,4 @@ func (k Keeper) SayHello(goCtx context.Context, req *types.QuerySayHelloRequest)
 
 	return &types.QuerySayHelloResponse{}, nil
 }
+ 
